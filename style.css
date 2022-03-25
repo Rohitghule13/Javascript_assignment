@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(101, 101, 240);
+}
+
+#rogh {
+    display: flex;
+    position: absolute;
+}
+
+button {
+    margin: 2px
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+    width: 512px;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    overflow: scroll;
+}
+
+#pagedsng {
+    margin: 50px 20px 8px 20px;
+    border-top-style: solid;
+    padding-top: 30px;
+    border-top-width: 1px;
+    padding-bottom: 65px;
+    padding-left: 30px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-width: 1px;
+    padding-right: 30px;
+    border-radius: 50px;
+    background-color: rgb(60, 60, 194);
+    overflow: scroll;
+    height: 570px
+}
+
+#tablepage {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#pagedsng:-webkit-scrollbar-thumb {
+    width: 10px;
+}
+
+h1 {
+    text-align: left;
+    margin: 20px 10px 0px 10px;
+    color: #fff;
+}
+
+#card {
+    margin: 50px 20px 5px 20px;
+    border-top-style: solid;
+    padding-top: 30px;
+    border-top-width: 1px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-width: 1px;
+    padding-right: 30px;
+    border-radius: 50px;
+    background-color: rgb(60, 60, 194);
+}
+
+button {
+    cursor: pointer;
+    padding: 2px
+}
+
+#right_side_card {
+    padding: 100px 100px 100px 100px;
+}
+
+@media screen and (max-width: 1210px) {
+    #pagedsng {
+        flex-direction: column;
+    }
+    #rogh {
+        flex-direction: column;
+    }
+    #card {
+        padding: 30px 80px 30px 80px;
+    }
+}
+
+
+/*@media screen and(max-width:1233px) {
+    #pagedsng {
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: px;
+    }
+}*/
+
+#avatar {
+    width: 50px;
+    height: 80px;
+}
